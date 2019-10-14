@@ -9,9 +9,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Please enter a sentence");
-        String str = scanner.nextLine();
-
-        System.out.print(WordUtils.wrap(str,13));
+        System.out.print(WordUtils.wrap(scanner.nextLine(),13));
 
 
     }
